@@ -62,4 +62,24 @@ main{
   margin: 15px 0 5px;
 }
 
+@media screen and (max-width:768px) {
+	main {
+		color: gray;
+		width: 100%;
+		margin: 50px 5% 50px 5%;
+	}
 
+	.step-box {
+		width: 90%;
+    	float: none;
+    	margin: 0 0 20px 0;
+    }
+
+    .step-box:last-child{
+    	margin-bottom: 0;
+    }
+
+    .text {
+    	font-size: small;
+    }
+}
